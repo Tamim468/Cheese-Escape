@@ -42,8 +42,7 @@ Section:NewButton("Get All Cheese", "Gives you all cheese's in-game", function()
          end
      end
 end)
-
-
+    
 -- CLIENT
 local Section2 = Tab:NewSection("Stuff")
 
@@ -68,6 +67,50 @@ Section3:NewLabel("Made by IceyTamim - FrostedTamim")
 local Section4 = Tab3:NewSection("Locations")
 
 Section4:NewButton("Spawn", "Spawn's Location", function()
-        game.Players.LocalPlayer.Character:MoveTo(game.Workspace.SpawnLocation.Position)
+    game.Players.LocalPlayer.Character:MoveTo(game.Workspace.SpawnLocation.Position)
+end)
+
+Section4:NewButton("Safe Zone", "Hideout's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-73.6963, 4.2, -109.536))
+end)
+
+Section4:NewButton("Cheese Hideout", "Hideout's Location 2", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-264.393, 4.19329, -56.25))
+end)
+
+Section4:NewButton("Cheese Hideout 2", "Hideout's Location 3", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-275.163, 4.19329, -149.3))
+end)
+
+Section4:NewButton("Cheese Hideout 3", "Hideout's Location 4", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-271.628, 4.19329, -33.53))
+end)
+
+Section4:NewButton("Safe Zone 2", "Hideout's Location 5", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-272.487, 48.5, -150.641))
+end)
+
+Section4:NewButton("Cheese Hideout 4", "Hideout's Location 6", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-205.069, 4.19329, -180.7))
+end)
+
+Section4:NewButton("Obby", "Obby's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-25.2942, 100.5, -1037.5))
+end)
+
+Section4:NewButton("Exit", "Hideout's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-24.3932, 5, 24.3302))
+end)
+
+Section4:NewButton("Locked Area", "Hideout's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-220.522, 4, -452.123))
+end)
+
+Section4:NewButton("Basement", "Hideout's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(-88.9135, 4, -451.278))
+end)
+
+Section4:NewButton("Road to End", "Hideout's Location", function()
+    game.Players.LocalPlayer.Character:MoveTo(Vector3.new(1758.41, 57, -137.61))
     end)
 end
